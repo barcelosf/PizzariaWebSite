@@ -1,0 +1,23 @@
+@media (min-width: 200px) and (max-width: 800px){
+    nav ul li a.desaparece{
+        display: none;
+    }
+    main div#restaurante{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 5px;
+    }
+    main div#restaurante h1{
+        margin: auto;
+    }
+    main div#restaurante div.cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main div#cardapio img {
+        width: 400px;
+        height: 250px;
+    }
+}

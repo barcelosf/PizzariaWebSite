@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav figure{
+    display: flex;
+    align-items: center;
+}
+nav figure figcaption{
+    margin-left: 7px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li a{
+    margin-right: 30px;
+}
+main div#restaurante{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+}
+main div#restaurante h1{
+    margin-left: 400px;
+}
+main div#restaurante div.cards{
+    display: flex;
+    flex-direction: column;    
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer figure{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
